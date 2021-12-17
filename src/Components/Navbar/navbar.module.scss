@@ -1,0 +1,34 @@
+
+.wrapper {
+  height: 50vh;
+  padding-top: 4%;
+  width: 10%;
+  background-color: #7a97e9;
+
+  .nav {
+
+    font-size: 1.2rem;
+
+    ul {
+
+      display: flex;
+      flex-direction: column;
+
+      a {
+        padding: 10%;
+        outline: none;
+        text-decoration: none;
+        &:focus {
+          color: rgb(175, 68, 68);
+        }
+        &:last-child {
+          padding-top: 35%;
+        }
+      }
+      li {
+        padding-left: 5%;
+
+      }
+    }
+  }
+}
