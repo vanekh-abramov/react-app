@@ -4,6 +4,9 @@ import Descriptions from "./Description";
 import Post from "./Post";
 
 const Content = () => {
+
+  
+
   return (
     <>
       <img
