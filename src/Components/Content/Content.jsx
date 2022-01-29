@@ -4,6 +4,9 @@ import Descriptions from "./Description";
 import Post from "./Post";
 
 const Content = () => {
+
+  console.log('Zheka lox')
+
   return (
     <>
       <img
