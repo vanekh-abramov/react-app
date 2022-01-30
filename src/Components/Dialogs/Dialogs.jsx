@@ -10,6 +10,7 @@ const Dialogs = (props) => {
     { id: 3, name: "Lenya" },
     { id: 4, name: "Margarita" },
     { id: 5, name: "Mama" },
+    { id: 6, name: "Zheka" },
   ];
 
   let massagesData = [
