@@ -75,54 +75,9 @@ const PostsComponent = () => {
         <div className={styles.enter_button}>Enter</div>
       </div>
       <div className={styles.post_wrapper}>
-        <Post
-          id={postData[0].id}
-          src={postData[0].avatarSrc}
-          text={postData[0].text}
-          likes={postData[0].likes}
-        />
-        <Post
-          id={postData[1].id}
-          src={postData[1].avatarSrc}
-          text={postData[1].text}
-          likes={postData[1].likes}
-        />
-        <Post
-          id={postData[2].id}
-          src={postData[2].avatarSrc}
-          text={postData[2].text}
-          likes={postData[2].likes}
-        />
-        <Post
-          id={postData[3].id}
-          src={postData[3].avatarSrc}
-          text={postData[3].text}
-          likes={postData[3].likes}
-        />
-        <Post
-          id={postData[4].id}
-          src={postData[4].avatarSrc}
-          text={postData[4].text}
-          likes={postData[4].likes}
-        />
-        <Post
-          id={postData[5].id}
-          src={postData[5].avatarSrc}
-          text={postData[5].text}
-          likes={postData[5].likes}
-        />
-        <Post
-          id={postData[6].id}
-          src={postData[6].avatarSrc}
-          text={postData[6].text}
-          likes={postData[6].likes}
-        />
-        <Post
-          id={postData[7].id}
-          src={postData[7].avatarSrc}
-          text={postData[7].text}
-          likes={postData[7].likes}
-        />
+        {postData.map(({ id, avatarSrc, text, likes }, index) => {
+          return <Post key={id} id={id} src={avatarSrc} text={text} likes={likes} />;
+        })}
       </div>
     </>
   );
