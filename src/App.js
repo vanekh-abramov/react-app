@@ -15,13 +15,13 @@ const App = () => {
         <Header />
         <div className={mainStyles.inner_container}>
           <Navbar />
-          <div className={mainStyles.content_wrapper}> 
+          <div className={mainStyles.content_wrapper}>
             <Routes>
-              <Route path="/profile" element={<Content />}/>
-              <Route path="/dialogs" element={<Dialogs />}/>
-              <Route path="/news" element={<News/>}/>
-              <Route path="/music" element={<Music/>}/>
-              <Route path="/settings" element={<Settings />}/>
+              <Route path="/profile" element={<Content />} />
+              <Route path="/dialogs" element={<Dialogs />} />
+              <Route path="/news" element={<News />} />
+              <Route path="/music" element={<Music />} />
+              <Route path="/settings" element={<Settings />} />
             </Routes>
           </div>
         </div>

@@ -3,11 +3,7 @@ import styles from "./contentStyles.module.scss";
 import Descriptions from "./Description";
 import PostsComponent from "./PostsComponent";
 
-
 const Content = () => {
-
-  
-
   return (
     <>
       <img

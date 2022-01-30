@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./dialogsStyles.module.scss";
 import { NavLink } from "react-router-dom";
 
-const Dialog = ({id, name}) => {
+const Dialog = ({ id, name }) => {
   return (
     <NavLink
       to={`/dialogs/${id}`}

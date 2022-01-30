@@ -76,7 +76,9 @@ const PostsComponent = () => {
       </div>
       <div className={styles.post_wrapper}>
         {postData.map(({ id, avatarSrc, text, likes }, index) => {
-          return <Post key={id} id={id} src={avatarSrc} text={text} likes={likes} />;
+          return (
+            <Post key={id} id={id} src={avatarSrc} text={text} likes={likes} />
+          );
         })}
       </div>
     </>
